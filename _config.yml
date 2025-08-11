@@ -19,10 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Jude Shin & Everything Else 
+heading: <Hello World!>
+subheading: a place to showcase my life as a Computer Science Student, Software Engineer, Competitive Rock Climber, and Youth Competition Coach!
+
 email: judes946@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is a place for me to showcase almost everthing going on in my life 
-  as a Computer Science Student, Software Engineer, Competitive Rock Climber, and Youth Competition Coach!
+# description: >- # this means to ignore newlines until "baseurl:"
+#   This is a place for me to showcase almost everthing going on in my life 
+#   as a Computer Science Student, Software Engineer, Competitive Rock Climber, and Youth Competition Coach!
 baseurl: "" # the subpath of your site, e.g. /blog 
 url: "jude-shin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
