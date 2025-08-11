@@ -15,11 +15,9 @@ jobs:
       - name: Install Build Dependencies
         run: sudo apt-get update && sudo apt-get install -y libgmp-dev libgmp10 ruby-dev
 
-      # Manually install commonmarker and run bundle install
+      # Manually install commonmarker
       - name: Install Ruby Gems
-        run: |
-          sudo gem install commonmarker -v 0.23.11 --force
-          bundle install
+        run: sudo gem install commonmarker -v 0.23.11 --force
 
       # Use GitHub Actions' cache to cache dependencies on servers
       - uses: actions/cache@v4
