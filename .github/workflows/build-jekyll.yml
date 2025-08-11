@@ -11,26 +11,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Installs common system dependencies
-      - name: Install Build Dependencies
-        run: sudo apt-get update && sudo apt-get install -y libgmp-dev libgmp10 ruby-dev
+      # # Use GitHub Actions' cache to cache dependencies on servers
+      # - uses: actions/cache@v4
+      #   with:
+      #     path: |
+      #       .asdf/**
+      #       vendor/bundle
+      #     key: ${{ runner.os }}-cache-${{ hashFiles('**/cache.key') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-cache-
 
-      # Manually install commonmarker
-      - name: Install Ruby Gems
-        run: sudo gem install commonmarker -v 0.23.11 --force
-
-      # Use GitHub Actions' cache to cache dependencies on servers
-      - uses: actions/cache@v4
-        with:
-          path: |
-            .asdf/**
-            vendor/bundle
-          key: ${{ runner.os }}-cache-${{ hashFiles('**/cache.key') }}
-          restore-keys: |
-            ${{ runner.os }}-cache-
-
-            # Use GitHub Deploy Action to build and deploy to Github
-            # For latest version: `jeffreytse/jekyll-deploy-action@master`
+      #       # Use GitHub Deploy Action to build and deploy to Github
+      #       # For latest version: `jeffreytse/jekyll-deploy-action@master`
       - uses: jeffreytse/jekyll-deploy-action@v0.6.0
         with:
           provider: 'github'         # Default is github
