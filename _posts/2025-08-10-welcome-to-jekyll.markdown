@@ -6,6 +6,8 @@ categories: jekyll update
 ---
 You should be able to see this now!
 
+please please please
+
 HERE I AM THIS IS JUDE
 
 THIS IS A SECOND TEST
