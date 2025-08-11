@@ -4,17 +4,8 @@ title:  "Welcome to Jekyll!"
 date:   2025-08-10 22:31:36 -0700
 categories: jekyll update
 ---
-You should be able to see this now!
-
-please please please
-
-HERE I AM THIS IS JUDE
-
-THIS IS A SECOND TEST
-
-this is an upate please please please please
-
-if this does not show up I wil lbe in very deep trouble
+HELLO WORLD THIS IS JUDE
+I finally figured out how jekyll works!
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
