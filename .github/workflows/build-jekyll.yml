@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      # there is some annoying things that happen with this
+      - name: Install Commonmarker Dependencies
+        run: sudo apt-get update && sudo apt-get install -y libgmp-dev libgmp10 ruby-dev
 
       # Use GitHub Actions' cache to cache dependencies on servers
       - uses: actions/cache@v4
