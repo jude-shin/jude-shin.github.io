@@ -29,7 +29,8 @@ url: "jude-shin.github.io" # the base hostname & protocol for your site, e.g. ht
 github_username: jude-shin
 
 # Build settings
-theme: minima
+# theme: minima
+theme: jekyll-theme-yat 
 plugins:
   - jekyll-feed
 
