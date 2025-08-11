@@ -16,7 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
+      # Installs common system dependencies
+      - name: Install Build Dependencies
+        run: sudo apt-get update && sudo apt-get install -y libgmp-dev libgmp10 ruby-dev
+
       # Manually install commonmarker and run bundle install
       - name: Install Ruby Gems
         run: |
