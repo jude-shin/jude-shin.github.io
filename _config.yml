@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# TODO: move these into the front matter of the index.md file in the root dir
 title: Jude Shin & Everything Else 
-heading: <Hello World!>
-subheading: a place to showcase my life as a Computer Science Student, Software Engineer, Competitive Rock Climber, and Youth Competition Coach!
+heading: hey there!
+subheading: My journey through Computer Science, Photography, Rock Climbing, and everything in between
 
 email: judes946@gmail.com
 # description: >- # this means to ignore newlines until "baseurl:"
