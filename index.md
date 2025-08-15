@@ -4,5 +4,4 @@
 
 layout: home
 title: Home 
-banner: "/assets/images/banners/wall.jpg"
 ---

@@ -21,6 +21,7 @@ description: Learn about my journey through Computer Science, Photography, Rock 
 ###############
 name: Jude Shin
 url: "jude-shin.github.io" # TODO: change this when you choose a custom domain
+# url: "http://127.0.0.1:4000"
 baseurl: ""
 # repository: "" # do something here
 
@@ -97,7 +98,7 @@ compress_html:
 ###################
 author:
   name: "Jude Shin"
-  # avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.jpg"
   bio: "Passionate about Comuter Science, Climbing, Coaching, and Photography"
   location: "California"
   links: 
