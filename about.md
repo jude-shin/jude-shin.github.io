@@ -1,6 +1,7 @@
 ---
-layout: about
+layout: single 
 title: About
+toc: true
 ---
 # Compuer Science
 I am currently pursuing my Bachelors in Computer Science at California Polytechnic State University. During the school year I work part time as a software engineer, and during the summer I work full time. 
