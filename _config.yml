@@ -88,6 +88,8 @@ pagination:
     before: 2
     after: 2
 
+include: ["_pages"]
+
 compress_html:
   clippings: all
   ignore:
@@ -108,12 +110,9 @@ author:
     - label: "Github"
       icon: "fa-brands fa-square-github"
       url: "https:www.github.com/jude-shin"
-    - label: "Climbing"
+    - label: "Instagram"
       icon: "fa-brands fa-square-instagram"
       url: "https:instagram.com/hey_jude_climbing"
-    - label: "Photography"
-      icon: "fa-brands fa-square-instagram"
-      url: "https:instagram.com/hey_jude_photography"
 
 
 ##############
@@ -121,6 +120,16 @@ author:
 ##############
 footer: 
   since: "2025"
+  links: 
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https:www.linkedin.com/jude-shin"
+    - label: "Github"
+      icon: "fa-brands fa-square-github"
+      url: "https:www.github.com/jude-shin"
+    - label: "Instagram"
+      icon: "fa-brands fa-square-instagram"
+      url: "https:instagram.com/hey_jude_climbing"
 
 
 ###############
