@@ -22,8 +22,8 @@ description: Learn about my journey through Computer Science, Photography, Rock 
 name: "Jude Shin"
 url: "https://jude-shin.github.io" # TODO: change this when you choose a custom domain
 # url: "http://127.0.0.1:4000"
-baseurl: "/jude-shin"
-repository: "jude-shin/jude-shin" # author/repo-name 
+baseurl: ""
+# repository: "jude-shin/jude-shin" # author/repo-name 
 
 
 ##############
