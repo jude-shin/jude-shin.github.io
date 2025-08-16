@@ -4,8 +4,5 @@ main:
   - title: "About"
     url: /about
     description: a little about me
-  # - title: "Posts"
-  #   url: /_posts/
-  # - title: "Pages"
-  #   url: /_pages/
-
+  - title: "Blog"
+  - title: "Gallery"

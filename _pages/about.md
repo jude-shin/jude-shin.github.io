@@ -2,10 +2,8 @@
 layout: single 
 title: About
 permalink: /about/
-
-# try to get these as defaults
-author_profile: true
 toc: true
+author_profile: true
 ---
 ## Compuer Science
 I am currently pursuing my Bachelors in Computer Science at California Polytechnic State University. During the school year I work part time as a software engineer, and during the summer I work full time. 

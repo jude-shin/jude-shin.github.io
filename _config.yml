@@ -26,13 +26,6 @@ baseurl: ""
 # repository: "jude-shin/jude-shin" # author/repo-name 
 
 
-##############
-### IMAGES ### 
-##############
-teaser: /assets/images/teasers/clouds.jpg # default teaser image for posts
-# logo: /assets/images/logo.jpg
-
-
 ################
 ### DEFAULTS ###
 ################
@@ -88,7 +81,7 @@ pagination:
     before: 2
     after: 2
 
-include: ["_pages"]
+include: ["_pages", "_posts"]
 
 compress_html:
   clippings: all
