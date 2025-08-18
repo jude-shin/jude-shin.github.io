@@ -8,5 +8,3 @@ main:
     url: /collections
   - title: "Blog"
     url: /blog
-  - title: "Gallery"
-    url: gallery
