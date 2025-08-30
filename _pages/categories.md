@@ -1,4 +1,4 @@
 ---
-# layout: categories
+layout: categories
 permalink: /categories/
 ---
