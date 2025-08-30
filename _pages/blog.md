@@ -1,4 +1,4 @@
 ---
-layout: categories 
+layout: posts 
 permalink: /blog/
 ---
