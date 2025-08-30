@@ -36,7 +36,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      # author_profile: true
       read_time: true
       show_date: true
       comments: false
@@ -48,12 +48,12 @@ defaults:
       type: pages
     values:
       layout: single
-  # _foo (collections)
-  - scope:
-      path: ""
-      type: foo
-    values:
-      layout: single
+#  # _foo (collections)
+#  - scope:
+#      path: ""
+#      type: foo
+#    values:
+#      layout: single
 
 
 ############
