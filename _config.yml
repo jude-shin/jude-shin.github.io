@@ -21,7 +21,6 @@ description: Learn about my journey through Computer Science, Photography, Rock 
 ###############
 name: "Jude Shin"
 url: "https://jude-shin.github.io" # TODO: change this when you choose a custom domain
-# url: "http://127.0.0.1:4000"
 baseurl: ""
 # repository: "jude-shin/jude-shin" # author/repo-name 
 
@@ -66,20 +65,20 @@ search: true
 lunr:
   search_within_pages: true
 
-# TODO: if this doesn't work, try version 2
-# paginate: 5
-pagination:
-  enabled: true
-  collection: 'posts'
-  per_page: 5
-  permalink: '/page/:num/'  # Pages are index.html inside this folder (default)
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
-  trail:
-    before: 2
-    after: 2
+# # TODO: if this doesn't work, try version 2
+# # paginate: 5
+# pagination:
+#   enabled: true
+#   collection: 'posts'
+#   per_page: 5
+#   permalink: '/page/:num/'  # Pages are index.html inside this folder (default)
+#   title: ':title - page :num'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+#   trail:
+#     before: 2
+#     after: 2
 
 include: ["_pages", "_posts"]
 
@@ -130,4 +129,4 @@ footer:
 ###############
 
 # plugins:
-#   - jekyll-feed
+- jekyll-feed

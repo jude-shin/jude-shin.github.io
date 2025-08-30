@@ -3,8 +3,7 @@ main:
     url: /
   - title: "About"
     url: /about
-    # holds the categories that I have in my life: climbing, computer science, and photography (possibly coaching)
-  - title: "Collections"
-    url: /collections
+  - title: "Categories"
+    url: /categories
   - title: "Blog"
     url: /blog
