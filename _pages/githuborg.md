@@ -14,11 +14,13 @@ With that said, some of these links are to private repos. This page is mainly ju
 | [.dotfiles](https://github.com/jude-shin/.dotfiles) | Dotfiles for my personal machine |
 | [harmony](https://github.com/jude-shin/harmony) | Machine learning for card recognition. |
 | [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io) | A personal website and online resume. |
+{: rules="groups"}
 
 ## Professional 
 | Link To Repo | Description |
 |--------|--------|
 | [harmony](https://github.com/jude-shin/harmony) | Machine learning for card recognition. |
+{: rules="groups"}
 
 ## SDL3 
 | Link To Repo | Description |
@@ -31,6 +33,7 @@ With that said, some of these links are to private repos. This page is mainly ju
 | [MovieLens](https://github.com/jude-shin/MovieLens) | Explores "Retrieval (machine learning) Models" with ScANN for Extreme (image) Classification. |
 | [data-version-control (ARCHIVED)](https://github.com/jude-shin/data-version-control) | Basics of using the tool DVC (like git for data files). |
 | [profile (ARCHIVED)](https://github.com/jude-shin/profile) | Using Hugo to generate static websites. |
+{: rules="groups"}
 
 
 ## School (Current)  
@@ -57,12 +60,14 @@ assignment name: foo, foobar, thissucks, pingpong
 | [CSC_307_A05_Team05PlanitPoker (ARCHIVED)](https://github.com/jude-shin/CSC_307_A05_Team05PlanitPoker) | First group that was buns. |
 | [CSC_430_A08_final (ARCHIVED)](https://github.com/jude-shin/CSC_430_A08_final) | Final project in ADA programming language. |
 | [CSC_430_AXX_assignments (ARCHIVED)](https://github.com/jude-shin/CSC_430_AXX_assignments/settings) | Most assignments for this class. |
+{: rules="groups"}
 
 
 #### winter 2025
 | Link To Repo | Description |
 |--------|--------|
 | [CSC_365_A03_final (ARCHIVED)](https://github.com/jude-shin/CSC_365_A03_final) | Java based course management system using MySQL. |
+{: rules="groups"}
 
 
 <!--
@@ -71,5 +76,6 @@ assignment name: foo, foobar, thissucks, pingpong
 | [title1]() | desc1 |
 | [title2]() | desc2 |
 | [title3]() | desc3 |
+{: rules="groups"}
 -->
 
