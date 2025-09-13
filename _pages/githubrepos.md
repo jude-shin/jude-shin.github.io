@@ -11,7 +11,7 @@ With that said, some of these links are to private repos. This page is mainly ju
 
 ## Personal  
 
-| Link To Repo          | Description           |
+| Link To Repo | Description |
 |:-----|:-----|
 | [.dotfiles](https://github.com/jude-shin/.dotfiles) | Dotfiles for my personal machine |
 | [harmony](https://github.com/jude-shin/harmony) | Machine learning for card recognition. |
