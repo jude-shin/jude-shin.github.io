@@ -8,28 +8,28 @@ author_profile: true
 This page primarily here so I can easily organize important github repos (github doesn't have a way to do this).
 
 # Personal  
-#### [.dotfiles](https://github.com/jude-shin/.dotfiles)
+## [.dotfiles](https://github.com/jude-shin/.dotfiles)
 Dotfiles for my personal machine
 
-#### [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io)
+## [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io)
 A personal website and online resume.
 
 # Professional 
-#### [harmony](https://github.com/jude-shin/harmony) 
+## [harmony](https://github.com/jude-shin/harmony) 
 Machine learning for card recognition.
 
 # SDL3 
-###  snake 
+##  snake 
 First ever SDL3 game.
 
 # Tutorials
-#### [MovieLens](https://github.com/jude-shin/MovieLens) 
+## [MovieLens](https://github.com/jude-shin/MovieLens) 
 Explores "Retrieval (machine learning) Models" with ScANN for Extreme (image) Classification.
 
-#### [data-version-control (ARCHIVED)](https://github.com/jude-shin/data-version-control) 
+## [data-version-control (ARCHIVED)](https://github.com/jude-shin/data-version-control) 
 Basics of using the tool DVC (like git for data files).
 
-#### [profile (ARCHIVED)](https://github.com/jude-shin/profile) 
+## [profile (ARCHIVED)](https://github.com/jude-shin/profile) 
 Using Hugo to generate static websites.
 
 
@@ -49,7 +49,7 @@ assignment number: A05, L08, A09, A11, L13, AXX
     AXX means that it holds many assignments
 assignment name: foo, foobar, thissucks, pingpong
 -->
-#### Spring 2025
+## Spring 2025
 
 | [CSC_307_A03_Pong (ARCHIVED)](https://github.com/jude-shin/CSC_307_A03_Pong) | A two player Ping Pong game in Java with MQTT. |
 | [CSC_307_A05_PlanitPoker (ARCHIVED)](https://github.com/jude-shin/CSC_307_A05_PlanitPoker) | SCRUM project management software. |
@@ -58,6 +58,6 @@ assignment name: foo, foobar, thissucks, pingpong
 | [CSC_430_AXX_assignments (ARCHIVED)](https://github.com/jude-shin/CSC_430_AXX_assignments/settings) | Most assignments for this class. |
 
 
-#### Winter 2025
+## Winter 2025
 
 | [CSC_365_A03_final (ARCHIVED)](https://github.com/jude-shin/CSC_365_A03_final) | Java based course management system using MySQL. |
