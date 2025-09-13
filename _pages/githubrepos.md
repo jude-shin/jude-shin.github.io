@@ -8,13 +8,11 @@ author_profile: true
 This page primarily here so I can easily organize important github repos (github doesn't have a way to do this).
 
 ## Personal  
-### .dotfiles
+### [.dotfiles](https://github.com/jude-shin/.dotfiles)
+Dotfiles for my personal machine
 
-[.dotfiles](https://github.com/jude-shin/.dotfiles) | Dotfiles for my personal machine |
-
-### jude-shin.github.io 
-
-[jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io) | A personal website and online resume. |
+### [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io)
+A personal website and online resume.
 
 ## Professional 
 ### harmony
