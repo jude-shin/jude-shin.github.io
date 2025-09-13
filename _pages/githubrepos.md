@@ -7,6 +7,8 @@ author_profile: true
 ---
 This page primarily here so I can easily organize important github repos (github doesn't have a way to do this).
 
+Maybe I will automate this somehow at somepoint. That would be cool.
+
 ## Personal  
 ### [.dotfiles](https://github.com/jude-shin/.dotfiles)
 Dotfiles for my personal machine
