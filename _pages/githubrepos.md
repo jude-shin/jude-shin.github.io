@@ -7,6 +7,7 @@ author_profile: true
 ---
 This page primarily here so I can easily organize important github repos (github doesn't have a way to do this).
 
+----
 ## Personal  
 ### [.dotfiles](https://github.com/jude-shin/.dotfiles)
 Dotfiles for my personal machine
@@ -14,14 +15,17 @@ Dotfiles for my personal machine
 ### [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io)
 A personal website and online resume.
 
+----
 ## Professional 
 ### [harmony](https://github.com/jude-shin/harmony) 
 Machine learning for card recognition.
 
+----
 ## SDL3 
 ###  snake 
 First ever SDL3 game.
 
+----
 ## Tutorials
 ### [MovieLens](https://github.com/jude-shin/MovieLens) 
 Explores "Retrieval (machine learning) Models" with ScANN for Extreme (image) Classification.
@@ -33,8 +37,10 @@ Basics of using the tool DVC (like git for data files).
 Using Hugo to generate static websites.
 
 
+----
 ## School (Current)
 
+----
 ## School (Archive) 
 <!--
 note: 
