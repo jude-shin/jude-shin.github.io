@@ -8,6 +8,19 @@ author_profile: true
 Viewer discretion is advised. The code here can single handedly destroy a months worth of llm training. Do yourself a service and take this code with a grain of salt. I am trying my best :)
 With that said, some of these links are to private repos. This page is mainly just for me to keep my github organized.
 
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
+{: rules="groups"}
+
+
 ## Personal  
 | Link To Repo | Description |
 |--------|--------|
