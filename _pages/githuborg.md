@@ -8,25 +8,17 @@ author_profile: true
 Viewer discretion is advised. The code here can single handedly destroy a months worth of llm training. Do yourself a service and take this code with a grain of salt. I am trying my best :)
 With that said, some of these links are to private repos. This page is mainly just for me to keep my github organized.
 
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
+| [.dotfiles](https://github.com/jude-shin/.dotfiles) | Dotfiles for my personal machine |
+| [harmony](https://github.com/jude-shin/harmony) | Machine learning for card recognition. |
+| [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io) | A personal website and online resume. |
 
 
 ## Personal  
 | Link To Repo | Description |
 |--------|--------|
-| [.dotfiles](https://github.com/jude-shin/.dotfiles) | Dotfiles for my personal machine |
-| [harmony](https://github.com/jude-shin/harmony) | Machine learning for card recognition. |
-| [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io) | A personal website and online resume. |
+| <a href="https://github.com/jude-shin/.dotfiles">.dotfiles</a> | Dotfiles for my personal machine |
+| <a href="https://github.com/jude-shin/harmony">harmony</a> | Machine learning for card recognition. |
+| <a href="https://github.com/jude-shin/jude-shin.github.io">jude-shin.github.io</a> | A personal website and online resume. |
 {: rules="groups"}
 
 ## Professional 
