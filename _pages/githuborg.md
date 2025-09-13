@@ -12,27 +12,27 @@ With that said, some of these links are to private repos. This page is mainly ju
 | [harmony](https://github.com/jude-shin/harmony) | Machine learning for card recognition. |
 | [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io) | A personal website and online resume. |
 
-
 ## Personal  
 | Link To Repo | Description |
 |--------|--------|
-| <a href="https://github.com/jude-shin/.dotfiles">.dotfiles</a> | | Dotfiles for my personal machine |
-| <a href="https://github.com/jude-shin/harmony">harmony</a> | | Machine learning for card recognition. |
-| <a href="https://github.com/jude-shin/jude-shin.github.io">jude-shin.github.io</a> | | A personal website and online resume. |
+| <a href="https://github.com/jude-shin/.dotfiles">.dotfiles</a> | Dotfiles for my personal machine |
+| <a href="https://github.com/jude-shin/harmony">harmony</a> | Machine learning for card recognition. |
+| <a href="https://github.com/jude-shin/jude-shin.github.io">jude-shin.github.io</a> | A personal website and online resume. |
 {: rules="groups"}
 
 ## Professional 
+
 | Link To Repo | Description |
 |--------|--------|
 | [harmony](https://github.com/jude-shin/harmony) | Machine learning for card recognition. |
-{: rules="groups"}
 
-## SDL3 
+SDL3 
 | Link To Repo | Description |
 |--------|--------|
 | snake | First ever SDL3 game. |
 
 ## Tutorials
+
 | Link To Repo | Description |
 |--------|--------|
 | [MovieLens](https://github.com/jude-shin/MovieLens) | Explores "Retrieval (machine learning) Models" with ScANN for Extreme (image) Classification. |
