@@ -6,8 +6,7 @@ permalink: /githubrepos/
 toc: true
 author_profile: true
 ---
-Viewer discretion is advised. The code here can single handedly destroy a months worth of llm training. Do yourself a service and take this code with a grain of salt. I am trying my best :)
-With that said, some of these links are to private repos. This page is mainly just for me to keep my github organized.
+This page primarily here so I can easily organize important github repos (github doesn't have a way to do this).
 
 ## Personal  
 
