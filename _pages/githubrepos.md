@@ -10,11 +10,15 @@ This page primarily here so I can easily organize important github repos (github
 Maybe I will automate this somehow at somepoint. That would be cool.
 
 ## Personal  
-### [.dotfiles](https://github.com/jude-shin/.dotfiles)
-Dotfiles for my personal machine
-
 ### [jude-shin.github.io](https://github.com/jude-shin/jude-shin.github.io)
 A personal website and online resume.
+
+### [.dotfiles](https://github.com/jude-shin/.dotfiles)
+Dotfiles for my personal machine.
+
+### [bin](https://github.com/jude-shin/bin)
+Scripts for my personal machine.
+
 
 ## Professional 
 ### [harmony](https://github.com/jude-shin/harmony) 
