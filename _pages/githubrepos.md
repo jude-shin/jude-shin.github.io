@@ -25,7 +25,7 @@ Scripts for my personal machine.
 Machine learning for card recognition.
 
 ## SDL3 
-###  snake 
+### [sdl3-snake](https://github.com/jude-shin/sdl3-snake)
 First ever SDL3 game.
 
 ## Tutorials
