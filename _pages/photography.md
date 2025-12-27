@@ -26,9 +26,11 @@ image_path: /assets/images/photograpy/mom-dad-sf.jpg
 alt: "Fuji 400: Mom and Pop being all cute in San Fransisco CA"
 title: "Fuji 400: Mom and Pop being all cute in San Fransisco CA"
 
-
 - url: /assets/images/photograpy/soo-bday.jpg
 image_path: /assets/images/photograpy/soo-bday.jpg
 alt: "Fuji 400: Grandma's Birthday"
 title: "Fuji 400: Grandma's Birthday"
 ---
+
+Here are some photos I have taken over the years:
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
