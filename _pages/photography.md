@@ -1,11 +1,9 @@
 ---
 layout: single 
 title: photography 
-permalink: /photography/
+permalink: /photography-old/
 toc: false 
 author_profile: false 
-
-classes: wide
 
 gallery_people:
   - url: /assets/images/photography/jonah-finale.jpg

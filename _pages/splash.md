@@ -1,30 +1,29 @@
 ---
 layout: splash
-title: Welcome! 
+permalink: /photography/
 
-permalink: /splash/
-
-# header:
-#   overlay_color: "#5e616c"
-#   overlay_image: /assets/images/teasers/clouds.jpg
-#   # actions:
-#   #   - label: "<i class='fas fa-download'></i> Install now"
-#   #     url: "/docs/quick-start-guide/"
-excerpt: >
-    A place to get to know me and all the things I do.
 feature_row:
-  - image_path: /assets/images/teasers/climbing-kings.jpg
-    alt: "Rock Climbing"
-    title: "Rock Climbing"
-    excerpt: "here is an image!"
-  - image_path: /assets/images/teasers/code.jpg
-    alt: "Computer Science"
-    title: "Computer Science"
-    excerpt: "Take a look at some of the work I have done in this field."
-  - image_path: /assets/images/teasers/photography-cash.jpg
-    alt: "Photography"
-    title: "Photography"
-    excerpt: "Just a gallery of my little side hobby."
+  - image_path: /assets/images/photography/jonah-finale.jpg
+    alt: "Fuji 400: summer 2025"
+    # title: "Fuji 400: Jonah's Senior Recital"
+    excerpt: "Fuji 400: Jonah's Senior Recital"
+  - image_path: /assets/images/photography/lauren-salmon-creek.jpg
+    alt: "Fuji 400: summer 2025"
+    # title: "Fuji 400: Lauren at Salmon Creek, Big Sur, CA"
+    excerpt: "Fuji 400: Lauren at Salmon Creek, Big Sur, CA"
+  - image_path: /assets/images/photography/sahil-salmon-creek.jpg
+    alt: "Fuji 400: summer 2025"
+    # title: "Fuji 400: Sahil at Salmon Creek, Big Sur, CA"
+    excerpt: "Fuji 400: Sahil at Salmon Creek, Big Sur, CA"
+  - image_path: /assets/images/photography/mom-dad-sf.jpg
+    alt: "Fuji 400: summer 2025"
+    # title: "Fuji 400: Mom and Pop being all cute in San Fransisco CA"
+    excerpt: "Fuji 400: Mom and Pop being all cute in San Fransisco CA"
+  - image_path: /assets/images/photography/soo-bday.jpg
+    alt: "Fuji 400: spring 2025"
+    # title: "Fuji 400: Grandma's Birthday"
+    excerpt: "Fuji 400: Grandma's Birthday"
+
 ---
 
 {% include feature_row %}
