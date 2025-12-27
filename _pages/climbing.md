@@ -1,7 +1,7 @@
 ---
 layout: single 
 title: About
-permalink: /about/
+permalink: /climbing/
 toc: true
 author_profile: true
 ---

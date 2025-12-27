@@ -1,6 +1,11 @@
 ---
+layout: single 
+title: photograpy 
+permalink: /photograpy/
+toc: false 
+author_profile: false 
+
 gallery:
-- url:df
 - url: /assets/images/photograpy/jonah-finale.jpg
 image_path: /assets/images/photograpy/jonah-finale.jpg
 alt: "Fuji 400: Jonah's Senior Recital"
