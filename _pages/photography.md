@@ -4,8 +4,9 @@ title: Photography
 permalink: /photograpy/
 # toc: true
 # author_profile: true
----
+
 gallery:
+- url:df
 - url: /assets/images/photograpy/jonah-finale.jpg
 image_path: /assets/images/photograpy/jonah-finale.jpg
 alt: "Fuji 400: Jonah's Senior Recital"
@@ -31,4 +32,4 @@ title: "Fuji 400: Mom and Pop being all cute in San Fransisco CA"
 image_path: /assets/images/photograpy/soo-bday.jpg
 alt: "Fuji 400: Grandma's Birthday"
 title: "Fuji 400: Grandma's Birthday"
-
+---
