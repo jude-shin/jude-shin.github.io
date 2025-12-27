@@ -1,10 +1,4 @@
 ---
-layout: single 
-title: Photography 
-permalink: /photograpy/
-# toc: true
-# author_profile: true
-
 gallery:
 - url:df
 - url: /assets/images/photograpy/jonah-finale.jpg
