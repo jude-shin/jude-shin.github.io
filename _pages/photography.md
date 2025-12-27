@@ -6,20 +6,29 @@ permalink: /photograpy/
 # author_profile: true
 ---
 gallery:
-- url: /assets/images/unsplash-gallery-image-1.jpg
-image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-alt: "placeholder image 1"
-title: "Image 1 title caption"
-- url: /assets/images/unsplash-gallery-image-2.jpg
-image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-alt: "placeholder image 2"
-title: "Image 2 title caption"
-- url: /assets/images/unsplash-gallery-image-3.jpg
-image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-alt: "placeholder image 3"
-title: "Image 3 title caption"
-- url: /assets/images/unsplash-gallery-image-4.jpg
-image_path: /assets/images/unsplash-gallery-image-4-th.jpg
-alt: "placeholder image 4"
-title: "Image 4 title caption"
+- url: /assets/images/photograpy/jonah-finale.jpg
+image_path: /assets/images/photograpy/jonah-finale.jpg
+alt: "Fuji 400: Jonah's Senior Recital"
+title: "Fuji 400: Jonah's Senior Recital"
+
+- url: /assets/images/photograpy/lauren-salmon-creek.jpg
+image_path: /assets/images/photograpy/lauren-salmon-creek.jpg
+alt: "Fuji 400: Lauren at Salmon Creek, Big Sur, CA"
+title: "Fuji 400: Lauren at Salmon Creek, Big Sur, CA"
+
+- url: /assets/images/photograpy/sahil-salmon-creek.jpg
+image_path: /assets/images/photograpy/sahil-salmon-creek.jpg
+alt: "Fuji 400: Sahil at Salmon Creek, Big Sur, CA"
+title: "Fuji 400: Sahil at Salmon Creek, Big Sur, CA"
+
+- url: /assets/images/photograpy/mom-dad-sf.jpg
+image_path: /assets/images/photograpy/mom-dad-sf.jpg
+alt: "Fuji 400: Mom and Pop being all cute in San Fransisco CA"
+title: "Fuji 400: Mom and Pop being all cute in San Fransisco CA"
+
+
+- url: /assets/images/photograpy/soo-bday.jpg
+image_path: /assets/images/photograpy/soo-bday.jpg
+alt: "Fuji 400: Grandma's Birthday"
+title: "Fuji 400: Grandma's Birthday"
 
