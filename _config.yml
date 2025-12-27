@@ -115,13 +115,13 @@ footer:
   links: 
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "https:www.linkedin.com/jude-shin"
+      url: "https://www.linkedin.com/jude-shin"
     - label: "Github"
       icon: "fa-brands fa-square-github"
-      url: "https:www.github.com/jude-shin"
+      url: "https://www.github.com/jude-shin"
     - label: "Instagram"
       icon: "fa-brands fa-square-instagram"
-      url: "https:instagram.com/hey_jude_climbing"
+      url: "https://instagram.com/hey_jude_climbing"
 
 
 ###############
