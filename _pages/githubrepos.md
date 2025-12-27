@@ -19,10 +19,16 @@ Dotfiles for my personal machine.
 ### [bin](https://github.com/jude-shin/bin)
 Scripts for my personal machine.
 
+### [browser-homepage](https://github.com/jude-shin/browser-homepage)
+It has some minimalistic things like a calendar and quick links; simple with no distractions.
+
 
 ## Professional 
 ### [harmony](https://github.com/jude-shin/harmony) 
 Machine learning for card recognition.
+
+### [genomics-research](https://github.con/jude-shin/)
+Genomics/AI research at California Polytechnic State University under professor Borislav [Coming Soon!].
 
 ## SDL3 
 ### [sdl3-snake](https://github.com/jude-shin/sdl3-snake)
@@ -42,6 +48,7 @@ Using Hugo to generate static websites.
 ## School (Current)
 
 ## School (Archive) 
+Note that these are probably private repos.
 <!--
 note: 
 use this format for the repo names:
@@ -55,6 +62,12 @@ assignment number: A05, L08, A09, A11, L13, AXX
     AXX means that it holds many assignments
 assignment name: foo, foobar, thissucks, pingpong
 -->
+### Fall 2025
+
+| [CSC_403 (ARCHIVED)](https://github.com/jude-shin/CSC_453) | Operating Systems: quite literally the hardest class that I have ever taken. |
+| [CSC_321 (ARCHIVED)](https://github.com/jude-shin/CSC_453) | A fun, surface level introduction to some cyber security related topics.  |
+
+
 ### Spring 2025
 
 | [CSC_307_A03_Pong (ARCHIVED)](https://github.com/jude-shin/CSC_307_A03_Pong) | A two player Ping Pong game in Java with MQTT. |
