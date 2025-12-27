@@ -1,35 +1,41 @@
-/* Masonry-style gallery (pure CSS) */
-.page__content .gallery {
+/* Masonry for Minimal Mistakes gallery include
+The include outputs ONE <figure class="{{layout}} {{include.class}}"> ... </figure> */
+.page__content figure.gallery-masonry {
   max-width: 1200px;
   margin: 0 auto;
   column-gap: 1.25rem;
   column-count: 1;
-  padding-left: 0;
-  list-style: none;
 }
 
-/* responsive columns */
 @media (min-width: 700px) {
-  .page__content .gallery { column-count: 2; }
-}
-@media (min-width: 1100px) {
-  .page__content .gallery { column-count: 3; }
+  .page__content figure.gallery-masonry { column-count: 2; }
 }
 
-/* prevent items from splitting across columns */
-.page__content .gallery li,
-.page__content .gallery__item {
+@media (min-width: 1100px) {
+  .page__content figure.gallery-masonry { column-count: 3; }
+}
+
+/* Each image link becomes a masonry "tile" */
+.page__content figure.gallery-masonry > a {
+  display: inline-block;
+  width: 100% !important;        /* override MM "half/third" widths */
+  margin: 0 0 1.25rem 0;
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
-  margin: 0 0 1.25rem 0 !important;
 }
 
-/* let images keep natural aspect ratio (key for masonry) */
-.page__content .gallery img {
+/* Images: keep natural aspect ratio for packing */
+.page__content figure.gallery-masonry img {
   width: 100%;
-  height: auto;          /* key: variable height */
+  height: auto;
   display: block;
   border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+/* Caption should span full width (not squeezed into a column) */
+.page__content figure.gallery-masonry > figcaption {
+  column-span: all;
+  padding-top: 0.25rem;
+  text-align: center;
 }
 
