@@ -17,21 +17,21 @@ feature_row:
     alt: "Rock Climbing"
     title: "Rock Climbing"
     excerpt: "See my journey as an outdoor rock climber, competitive climber, and youth competition coach."
-    url: "/docs/layouts/" # TODO
+    url: "/climbing/" # TODO
     btn_class: "btn--primary"
     btn_label: "Read More"
   - image_path: /assets/images/teasers/code.jpg
     alt: "Computer Science"
     title: "Computer Science"
     excerpt: "Take a look at some of the work I have done in this field."
-    url: "/docs/configuration/" # TODO
+    url: "/compsci/" # TODO
     btn_class: "btn--primary"
     btn_label: "Read More"
   - image_path: /assets/images/teasers/photography-cash.jpg
     alt: "Photography"
     title: "Photography"
     excerpt: "Just a gallery of my little side hobby."
-    url: "/docs/license/" # TODO
+    url: "/photography/" # TODO
     btn_class: "btn--primary"
     btn_label: "See Gallery"      
 ---
