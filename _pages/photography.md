@@ -27,6 +27,6 @@ gallery:
     alt: "Fuji 400: Grandma's Birthday"
     title: "Fuji 400: Grandma's Birthday"
 ---
-# Photos!
+## Photos!
 Here are some photos I have taken over the years:
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
