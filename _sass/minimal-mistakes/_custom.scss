@@ -1,38 +1,45 @@
 .page__content figure.gallery-masonry {
-  max-width: 1800px;
+  /* widen as much as you like */
+  /* max-width: 2200px; */
+  max-width: none;
   width: 100%;
   margin: 0 auto;
 
+  /* masonry via columns */
   column-gap: 1.25rem;
   column-count: 1;
 
-  /* keep it simple */
   display: block;
 }
 
-@media (min-width: 650px) {
+/* More columns as screen gets wider */
+@media (min-width: 600px) {
   .page__content figure.gallery-masonry { column-count: 2; }
 }
 
-@media (min-width: 950px) {
+@media (min-width: 900px) {
   .page__content figure.gallery-masonry { column-count: 3; }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1200px) {
   .page__content figure.gallery-masonry { column-count: 4; }
 }
 
-/* Tiles */
+@media (min-width: 1600px) {
+  .page__content figure.gallery-masonry { column-count: 5; }
+}
+
+/* Each image link becomes a masonry "tile" */
 .page__content figure.gallery-masonry > a {
-  /* IMPORTANT: defeat MM layout floats/widths */
+  /* defeat Minimal Mistakes layout floats/widths */
   float: none !important;
   clear: none !important;
 
-  /* column layout wants inline-level blocks */
+  /* participate in column flow */
   display: inline-block !important;
   vertical-align: top;
 
-  width: 100% !important;  /* fill the column width */
+  width: 100% !important; /* fill the column width */
   margin: 0 0 1.25rem 0 !important;
 
   break-inside: avoid;
@@ -40,12 +47,12 @@
   page-break-inside: avoid;
 }
 
-/* Images: MUST be natural height for true masonry */
+/* Images: natural height is REQUIRED for true masonry */
 .page__content figure.gallery-masonry img {
   display: block;
   width: 100% !important;
 
-  /* kill “uniform tile” behavior from any other rules */
+  /* kill any “uniform tile” rules */
   height: auto !important;
   max-height: none !important;
   aspect-ratio: auto !important;
@@ -54,7 +61,7 @@
   border-radius: 14px;
 }
 
-/* Caption spans the full width under the columns */
+/* Caption spans full width under the columns */
 .page__content figure.gallery-masonry > figcaption {
   column-span: all;
   padding-top: 0.25rem;
