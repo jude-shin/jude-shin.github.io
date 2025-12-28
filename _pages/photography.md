@@ -5,6 +5,8 @@ permalink: /photography/
 toc: false 
 author_profile: false 
 
+classes: wide
+
 gallery_people:
   - url: /assets/images/photography/jonah-finale.jpg
     image_path: /assets/images/photography/jonah-finale.jpg
