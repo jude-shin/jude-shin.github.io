@@ -1,40 +1,57 @@
-/* Masonry for Minimal Mistakes gallery include
-The include outputs ONE <figure class="{{layout}} {{include.class}}"> ... </figure> */
+/* Grid gallery for Minimal Mistakes gallery include
+   Include outputs: <figure class="{{layout}} {{include.class}}"> ... </figure>
+   Use: class="gallery-masonry" (name can stay the same)
+*/
+
 .page__content figure.gallery-masonry {
-  max-width: 1200px;
+  max-width: 1600px;     /* fill the wide page nicely */
   margin: 0 auto;
-  column-gap: 1.25rem;
-  column-count: 1;
+  display: grid;
+  grid-template-columns: 1fr;  /* mobile */
+  gap: 1.25rem;
 }
 
-@media (min-width: 700px) {
-  .page__content figure.gallery-masonry { column-count: 2; }
+/* 2-up on small tablets */
+@media (min-width: 600px) {
+  .page__content figure.gallery-masonry {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
-@media (min-width: 1100px) {
-  .page__content figure.gallery-masonry { column-count: 3; }
+/* 3-up on laptops */
+@media (min-width: 900px) {
+  .page__content figure.gallery-masonry {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
-/* Each image link becomes a masonry "tile" */
+/* 4-up on large screens */
+@media (min-width: 1200px) {
+  .page__content figure.gallery-masonry {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Links become grid items */
 .page__content figure.gallery-masonry > a {
-  display: inline-block;
-  width: 100% !important;        /* override MM "half/third" widths */
-  margin: 0 0 1.25rem 0;
-  break-inside: avoid;
-  -webkit-column-break-inside: avoid;
+  display: block;
+  margin: 0;                 /* override theme spacing */
+  width: auto !important;    /* undo any MM width rules */
 }
 
-/* Images: keep natural aspect ratio for packing */
+/* Make images uniform-ish and clean */
 .page__content figure.gallery-masonry img {
   width: 100%;
-  height: auto;
+  height: 260px;             /* fixed tile height -> consistent grid */
+  object-fit: cover;         /* crops a bit; change to contain if you hate cropping */
+  object-position: center;
   display: block;
   border-radius: 14px;
 }
 
-/* Caption should span full width (not squeezed into a column) */
+/* Caption spans all columns at bottom */
 .page__content figure.gallery-masonry > figcaption {
-  column-span: all;
+  grid-column: 1 / -1;
   padding-top: 0.25rem;
   text-align: center;
 }
