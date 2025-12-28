@@ -3,7 +3,7 @@ layout: single
 title: photography 
 permalink: /photography/
 toc: false 
-author_profile: false 
+author_profile: true 
 
 classes: wide
 
@@ -35,7 +35,7 @@ I found an old Cannon AE-1 Program in my mom's closet a while ago and decided to
 I am still far off from calling myself a photographer, but I have a lot of fun with it; film kind of has a more permanent feel to it. Here is just a rolling gallery of all of the film that I have the time to upload.
 
 ## People 
-{% include gallery id="gallery_people" class="gallery-masonry" layout="half" caption="Photos of the family and friends that I love." %}
+{% include gallery id="gallery_people" class="gallery-masonry" layout="full" caption="Photos of the family and friends that I love." %}
 
 ## Nature 
 Photography of landscape only

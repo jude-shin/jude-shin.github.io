@@ -1,57 +1,68 @@
-/* Grid gallery for Minimal Mistakes gallery include
-   Include outputs: <figure class="{{layout}} {{include.class}}"> ... </figure>
-   Use: class="gallery-masonry" (name can stay the same)
+/* TRUE masonry (CSS columns) for Minimal Mistakes gallery include
+   Use: class="gallery-masonry" on the include
+   Strongly recommended: layout="full" to avoid MM float widths fighting masonry
 */
 
 .page__content figure.gallery-masonry {
-  max-width: 1600px;     /* fill the wide page nicely */
+  /* let it use the wide layout space */
+  max-width: 1600px;
+  width: 100%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;  /* mobile */
-  gap: 1.25rem;
-}
 
-/* 2-up on small tablets */
-@media (min-width: 600px) {
-  .page__content figure.gallery-masonry {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
+  /* masonry via columns */
+  column-gap: 1.25rem;
+  column-count: 1;
 
-/* 3-up on laptops */
-@media (min-width: 900px) {
-  .page__content figure.gallery-masonry {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-/* 4-up on large screens */
-@media (min-width: 1200px) {
-  .page__content figure.gallery-masonry {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-
-/* Links become grid items */
-.page__content figure.gallery-masonry > a {
+  /* important: MM sometimes sets figure display in ways that interfere */
   display: block;
-  margin: 0;                 /* override theme spacing */
-  width: auto !important;    /* undo any MM width rules */
 }
 
-/* Make images uniform-ish and clean */
+/* 2 cols */
+@media (min-width: 600px) {
+  .page__content figure.gallery-masonry { column-count: 2; }
+}
+
+/* 3 cols */
+@media (min-width: 900px) {
+  .page__content figure.gallery-masonry { column-count: 3; }
+}
+
+/* 4 cols */
+@media (min-width: 1200px) {
+  .page__content figure.gallery-masonry { column-count: 4; }
+}
+
+/* Each image link must participate in column flow:
+   - no floats
+   - inline-block or block is fine; inline-block is a common trick for columns
+*/
+.page__content figure.gallery-masonry > a {
+  float: none !important;              /* KEY: defeat MM half/third floats */
+  width: auto !important;              /* let columns control layout */
+  margin: 0 0 1.25rem 0 !important;
+
+  display: inline-block;               /* participate in column layout */
+  vertical-align: top;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+
+  /* fill the column width */
+  width: 100% !important;
+}
+
+/* Natural aspect ratio = true masonry packing */
 .page__content figure.gallery-masonry img {
   width: 100%;
-  height: 260px;             /* fixed tile height -> consistent grid */
-  object-fit: cover;         /* crops a bit; change to contain if you hate cropping */
-  object-position: center;
+  height: auto;
   display: block;
+
   border-radius: 14px;
 }
 
-/* Caption spans all columns at bottom */
+/* Caption spans full width under the columns */
 .page__content figure.gallery-masonry > figcaption {
-  grid-column: 1 / -1;
+  column-span: all;
   padding-top: 0.25rem;
   text-align: center;
 }
