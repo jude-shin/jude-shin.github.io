@@ -1,66 +1,60 @@
-/* TRUE masonry (CSS columns) for Minimal Mistakes gallery include
-   Use: class="gallery-masonry" on the include
-   Strongly recommended: layout="full" to avoid MM float widths fighting masonry
-*/
-
 .page__content figure.gallery-masonry {
-  /* let it use the wide layout space */
-  max-width: 1600px;
+  max-width: 1800px;
   width: 100%;
   margin: 0 auto;
 
-  /* masonry via columns */
   column-gap: 1.25rem;
   column-count: 1;
 
-  /* important: MM sometimes sets figure display in ways that interfere */
+  /* keep it simple */
   display: block;
 }
 
-/* 2 cols */
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   .page__content figure.gallery-masonry { column-count: 2; }
 }
 
-/* 3 cols */
-@media (min-width: 900px) {
+@media (min-width: 950px) {
   .page__content figure.gallery-masonry { column-count: 3; }
 }
 
-/* 4 cols */
-@media (min-width: 1200px) {
+@media (min-width: 1250px) {
   .page__content figure.gallery-masonry { column-count: 4; }
 }
 
-/* Each image link must participate in column flow:
-   - no floats
-   - inline-block or block is fine; inline-block is a common trick for columns
-*/
+/* Tiles */
 .page__content figure.gallery-masonry > a {
-  float: none !important;              /* KEY: defeat MM half/third floats */
-  width: auto !important;              /* let columns control layout */
+  /* IMPORTANT: defeat MM layout floats/widths */
+  float: none !important;
+  clear: none !important;
+
+  /* column layout wants inline-level blocks */
+  display: inline-block !important;
+  vertical-align: top;
+
+  width: 100% !important;  /* fill the column width */
   margin: 0 0 1.25rem 0 !important;
 
-  display: inline-block;               /* participate in column layout */
-  vertical-align: top;
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
-
-  /* fill the column width */
-  width: 100% !important;
 }
 
-/* Natural aspect ratio = true masonry packing */
+/* Images: MUST be natural height for true masonry */
 .page__content figure.gallery-masonry img {
-  width: 100%;
-  height: auto;
   display: block;
+  width: 100% !important;
+
+  /* kill “uniform tile” behavior from any other rules */
+  height: auto !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: unset !important;
 
   border-radius: 14px;
 }
 
-/* Caption spans full width under the columns */
+/* Caption spans the full width under the columns */
 .page__content figure.gallery-masonry > figcaption {
   column-span: all;
   padding-top: 0.25rem;
