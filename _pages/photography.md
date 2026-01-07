@@ -28,6 +28,12 @@ gallery_people:
     image_path: /assets/images/photography/people/soo-bday.jpg
     alt: "Fuji 400: spring 2025"
     title: "Fuji 400: Grandma's Birthday"
+  - url: /assets/images/photography/people/ollie_banana.jpg
+    image_path: /assets/images/photography/people/ollie_banana.jpg
+    alt: "Fuji 400: spring 2025"
+    title: "Fuji 400: Ollie at Black Mountian"
+
+
 
 gallery_japan:
   - 
