@@ -3,7 +3,7 @@ layout: single
 title: photography 
 permalink: /photography/
 toc: false 
-author_profile: true 
+author_profile: false 
 
 classes: wide
 
@@ -34,9 +34,11 @@ gallery_people:
     title: "Fuji 400: Ollie at Black Mountian"
 
 
-
 gallery_japan:
-  - 
+  - url: /assets/images/photography/people/ollie_banana.jpg
+    image_path: /assets/images/photography/people/ollie_banana.jpg
+    alt: "Fuji 400: spring 2025"
+    title: "Fuji 400: Ollie at Black Mountian"
 ---
 ## Tools:
 I found an old Cannon AE-1 Program in my mom's closet a while ago and decided to shoot some film on it. I had no idea what I was doing, and it was a miracle that I didn't ruin the film that was sitting there for 10+ years. After a few rolls where only 3 exposures could remotely be considered a photo, I started to get the hang of it.
