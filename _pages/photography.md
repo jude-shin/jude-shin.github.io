@@ -44,10 +44,9 @@ I found an old Cannon AE-1 Program in my mom's closet a while ago and decided to
 I am still far off from calling myself a photographer, but I have a lot of fun with it; film kind of has a more permanent feel to it. Here is just a rolling gallery of all of the film that I have the time to upload.
 
 ## People 
-{% include gallery id="gallery_people" class="gallery-masonry" layout="full" caption="Photos of the family and friends that I love." %}
+{% include gallery id="gallery_people" class="full" layout="third" caption="Photos of the family and friends that I love." %}
 
 ## Japan 
-{% include gallery id="gallery_japan" class="gallery-masonry" layout="full" caption="Japan - Summer 2025" %}
 
 ## Nature 
 Photography of landscape only
